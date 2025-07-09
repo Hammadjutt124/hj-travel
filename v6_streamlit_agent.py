@@ -1,4 +1,9 @@
-import streamlit as st, uuid, os, requests, pdfkit, folium
+import streamlit as st
+import uuid
+import os
+import requests
+import pdfkit
+import folium
 from datetime import datetime
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
