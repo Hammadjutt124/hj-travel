@@ -76,7 +76,7 @@ except:
 destination = st.sidebar.text_input("Enter City", value=city)
 flight = st.sidebar.text_input("✈️ Flight IATA (e.g., EK202)")
 
-st.title("🌐 Smart Travel Assistant")
+st.title("🌐HJ Smart Travel Assistant")
 
 geo = Nominatim(user_agent="travel-app")
 loc = geo.geocode(destination)
