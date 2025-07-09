@@ -11,7 +11,7 @@ from geopy.geocoders import Nominatim
 import google.generativeai as genai
 
 # --- Setup ---
-st.set_page_config(page_title="✈️ Smart Travel Assistant", layout="wide")
+st.set_page_config(page_title="✈️HJ Smart Travel Assistant", layout="wide")
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 AVIATIONSTACK_KEY = os.getenv("AVIATIONSTACK_KEY", "5f427bc4eecf7a9f410f65bcfda6ab62")
@@ -158,5 +158,5 @@ if st.sidebar.button(lang["reset"]):
 
 # --- Footer ---
 st.markdown("<hr style='margin-top:2rem;'>", unsafe_allow_html=True)
-st.markdown(f"<div style='text-align:center;font-size:13px;'>🌐 Smart Assistant · Gemini AI · Weather + Flights · {st.session_state.language} · © 2025</div>", unsafe_allow_html=True)
+st.markdown(f"<div style='text-align:center;font-size:13px;'>🌐 Smart Assistant · BUILD BY HAMMAD AHMAD· {st.session_state.language} · © 2025</div>", unsafe_allow_html=True)
 
